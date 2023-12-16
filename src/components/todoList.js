@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import '../App.css';
 import { MdDelete } from "react-icons/md";
+import { FiEdit } from "react-icons/fi";
 
 const TodoList = () => {
     const [todos, setTodos] = useState([]);
@@ -80,6 +81,10 @@ const TodoList = () => {
                                         <MdDelete
                                             className='delete'
                                             onClick={() => handleDelete(index)}
+                                            size={'40px'}
+                                            cursor='pointer' />
+                                        <FiEdit
+                                            className='edit'
                                             size={'35px'}
                                             cursor='pointer' />
                                     </div>

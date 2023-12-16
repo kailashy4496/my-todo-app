@@ -16,7 +16,7 @@ body {
   text-align: center;
   position: relative;
   top: 50px;
-  height: 80vh;
+  height: 90vh;
   width: 100%;
   background-color: #29381f;
   border-radius: 10px;
@@ -95,20 +95,27 @@ input:valid {
   position: absolute;
   left: 40px;
   justify-content: space-between;
-  /* width: 86%;
-  background-color: #1e2719;
-  padding: 25px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  margin-bottom: 10px;
-  margin-top: 5px;
-  border-radius: 2px; */
 }
 .taskData {
+  position: relative;
   display: flex;
-  justify-content: space-between;
   margin-top: 10px;
+  justify-content: space-between;
+  height: 90px;
+  width: 39vw;
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
 }
-.data{
-  margin-top: 5px;
+.data {
+  margin: 8px;
+}
+
+.remove {
+  position: absolute;
+  top: 15px;
+  left: 500px;
+}
+.delete {
+  margin-right: 10px;
 }
